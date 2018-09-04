@@ -34,7 +34,7 @@ public class DiceController {
 		dice.setDice2(dice2Rand);
 		dice.setDice3(dice3Rand);
 		
-//		db.Connection(dice);
+		db.Connection(dice);
 		return dice ;
 		
 		
